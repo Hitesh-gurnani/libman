@@ -1,18 +1,18 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 
 class Footer extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
         }
     }
 
-render(){
-    return(
-                    <p className="footer" align="center">© Copyright 2019 IIT(ISM)</p>
-          );
-}
+    render() {
+        return (
+            <p className="footer" align="center">Made by Group-10</p>
+        );
+    }
 
 }
 
