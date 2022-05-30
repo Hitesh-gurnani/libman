@@ -14,6 +14,5 @@ var corsOptionsDelegate = (req, callback) => {
     }
     callback(null, corsOptions);
 };
-
 exports.cors = cors();
 exports.corsWithOptions = cors(corsOptionsDelegate);
