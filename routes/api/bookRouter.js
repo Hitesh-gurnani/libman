@@ -6,7 +6,6 @@ const authenticate=require('../../authenticate');
 const cors = require('../cors');
 const Books=require('../../models/books');
 bookRouter.use(bodyParser.json());
-
 bookRouter.route('/')
 .options(cors.corsWithOptions, (req, res) => { res.sendStatus(200); })
 .get(cors.corsWithOptions,(req,res,next) => {
