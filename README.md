@@ -13,7 +13,6 @@ A student can
 * change his password
 * search for books and view availabilty
 * view his issue history
-
 ### Admin
 
 An admin can
